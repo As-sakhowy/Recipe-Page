@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Young+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* max-width:1440px; */
+    /* max-width: 1440px;
+    margin:0 auto;
+    padding: 50px;
+    display: grid;
+    place-content: center;
+    /* min-block-size: 100vh; */
+    background-color: hsl(30, 54%, 90%); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+    /* font-family: 'Young Serif', serif; */
+    line-height: 1.5;
+    column-gap: 50px;
+
+    
+}
+main{
+    margin: auto;
+    width: 800px;
+    border-radius: 10px;
+    padding:3rem;
+}
+.card{
+    background-color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    border-color: 10px; 
+    align-items: center;
+    word-spacing: normal;
+    border-radius: 12px;
+}
+
+img{
+    width: 100%;
+    padding-bottom: 0.7rem;
+    border-radius: 23px;
+    display: block;
+}
+
+.title{
+    padding: 15px;
+}
+h1{
+    padding: 10px;
+}
+.prep-time{
+    background-color:hsl(330, 100%, 98%) ;
+    padding:0.7rem;
+    border-radius: 10px;
+}
+.prep-time  h3{
+    color:hsl(332, 51%, 32%);
+    padding-bottom: 10px;
+}
+
+.ingredients{
+    padding:10px;
+}
+ h2{
+    color: hsl(14, 45%, 36%);
+    padding: 10px;
+
+}
+
+p{
+    font-size:  16px;
+}
+ul{
+    /* word-spacing: 2px; */
+    list-style-position: inside;
+    list-style-type:square;
+    padding: 0.63rem 0.63rem;
+}
+
+span{
+    justify-content: flex-end;
+    text-align: right;
+}
+ol{
+    list-style-position: inside;
+    padding: 0.63rem 0.63rem;
+}
+
+.para1{
+    padding: 0.63rem ;
+}
+.para2{
+    /* justify-content:space-between; */
+    padding: 0.63rem ;
+}
+span{
+    color:hsl(14, 45%, 36%);
+    justify-content:space-between;
+    
+}
+
+ td {
+    padding: 0.93rem;
+    text-align: left;
+    color:hsl(14, 45%, 36%);
+    /* border-bottom: 1px solid black;
+    border-collapse: collapse; */
+}
+footer{
+    padding-bottom: 0.5rem;
+}
+/* @media screen and (min-width:375px) {
+    max-width: 375px;
+    
+} */
