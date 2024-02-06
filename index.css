@@ -34,8 +34,10 @@ main{
     word-spacing: normal;
     border-radius: 12px;
 }
-.table{
- width:100%;
+
+table{
+    width: 100%;
+    border-bottom: 1px solid black;
 }
 img{
     width: 100%;
