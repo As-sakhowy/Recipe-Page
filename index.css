@@ -102,12 +102,13 @@ span{
 }
 th{
      font-weight:400;
+     text-align:left 
 }
 
 
  td {
     padding: 0.93rem;
-    text-align: left;
+    text-align: right;
     color:hsl(14, 45%, 36%);
     /* border-bottom: 1px solid black;
     border-collapse: collapse; */
