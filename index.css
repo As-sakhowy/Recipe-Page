@@ -6,24 +6,27 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body{
+    max-width:1440px;
+    min-block-size: 100vh;
     background-color: hsl(30, 54%, 90%); 
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    max-width: 100%;  
     min-height: 100vh;
     flex-direction: column;
     font-family: 'Outfit', sans-serif;
     /* font-family: 'Young Serif', serif; */
     line-height: 1.5;
     column-gap: 50px;
+
 }
 main{
     margin: auto;
-    
+    width: 700px;
     border-radius: 10px;
     padding:3rem;
 }
@@ -36,10 +39,6 @@ main{
     border-radius: 12px;
 }
 
-table{
-    width: 50%;
-    border-bottom: 1px solid black;
-}
 img{
     width: 100%;
     padding-bottom: 0.7rem;
@@ -51,12 +50,15 @@ img{
     padding: 15px;
 }
 h1{
-    padding: 10px;
+    font-family: 'Young Serif', serif;
+    padding: 1px;
+    font-weight: 700;
 }
 .prep-time{
     background-color:hsl(330, 100%, 98%) ;
     padding:0.7rem;
     border-radius: 10px;
+    width: 100%;
 }
 .prep-time  h3{
     color:hsl(332, 51%, 32%);
@@ -73,57 +75,39 @@ h1{
 }
 
 p{
-    font-size:  16px;
+    font-size:  1rem;
+    display: flex;
+    padding: 1px 0 ;
+    font-weight: 500;
+    justify-content: space-around;
 }
 ul{
     /* word-spacing: 2px; */
     list-style-position: inside;
-    list-style-type:circle;
-    padding: 0.63rem 0.63rem;
+    list-style-type:disc;
+    padding: 0.63rem;
 }
 
-span{
-    justify-content: flex-end;
-    text-align: right;
-}
 ol{
     list-style-position: inside;
     padding: 0.63rem 0.63rem;
 }
 
-.para1{
-    padding: 0.63rem ;
-}
-.para2{
-    /* justify-content:space-between; */
-    padding: 0.63rem ;
-}
-span{
-    color:hsl(14, 45%, 36%);
-    justify-content:space-between;
-    
-}
-th{
-     font-weight:400;
-     text-align:left 
-}
-
-
- td {
-    padding: 0.93rem;
-    text-align: right;
-    color:hsl(14, 45%, 36%);
-    /* border-bottom: 1px solid black;
-    border-collapse: collapse; */
-   font-weight:700
-}
 footer{
     padding-bottom: 0.5rem;
 }
+.divider{
+    border-bottom:1px solid #888989;
+    margin: 2px 0;
+  }
+
 li::marker{
     color: hsl(14, 45%, 36%)
 }
-@media screen and (min-width:375px) {
-    min-width: 375px;
-    
-} 
+.underline{
+    border-bottom: 1px solid green;
+}
+span{
+    color: hsl(14, 45%, 36%);
+    font-weight: 800;
+}
